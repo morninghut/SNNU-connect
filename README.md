@@ -10,15 +10,15 @@ script to connect SNNU-network
 2. 按下键盘上的 F12 ，进入开发者模式。
 
 3. 选择其中的“网络“选项卡，如图。  
-[1.png](images/1.png)
+[!image](images/1.png)
 
 4. 在网页中输入你的信息并登录校园网
 
 5. 在第三步中打开的“网络”选项卡中，右键单击其中的 *login* .如图，点击其中的“复制为 cURL (bash)”  
-[2.png](images/2.png)
+[!image](images/2.png)
 
 6. 打开记事本，将刚刚复制的东西粘贴下来。如图。我们只需要关注**红线标出的部分**。  
-[3.png](images/3.png)
+[!image](images/3.png)
 
 7. 将红线标出的部分中，单引号内的内容复制下来，替换掉脚本中的<YOUR_DATA>部分  
 
