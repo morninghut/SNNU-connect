@@ -1,8 +1,7 @@
 # SNNU-connect
-script to connect SNNU-network
+script to connect network SNNU
 
-* 用于连接 SNNU 校园网的 Linux 脚本
-    * ~~小而丑的实现~~
+用于连接 SNNU 校园网的 Linux 脚本 ~~小而丑的实现~~
 
 ## 如何使用
 
