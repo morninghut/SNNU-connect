@@ -9,10 +9,10 @@ script to connect network SNNU
 
 2. 将脚本中的 YOUR_ACCOUNT 和 YOUR_PASSWD 部分替换为你自己的账号密码
 
-3. 保存并运行。
+3. 保存并运行
 
 ```bash
 ./net
 ```
 
-4. 如果一切正常，你将看到你的IP地址被输出。
+4. 如果一切正常，你将看到你的IP地址被输出
