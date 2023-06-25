@@ -1,9 +1,11 @@
 # SNNU-connect
 script to connect network SNNU
 
-用于连接 SNNU 校园网的 Linux 脚本 
+用于连接 SNNU 校园网的脚本 
 
 ## 如何使用
+
+### Bash
 
 1. 复制脚本到本地
 
@@ -16,3 +18,21 @@ script to connect network SNNU
 ```
 
 4. 如果一切正常，你将看到你的IP地址被输出
+
+### Powershell
+
+建议在 Powershell 7 下使用
+
+1. 打开配置文件
+
+   ```powershell
+  notepad $profile
+   ```
+
+2. 粘贴仓库中的.ps1文件，替换自己的账户和密码，保存。可能需要重启以生效。
+
+3. 运行
+
+```powershell
+cnt
+```
