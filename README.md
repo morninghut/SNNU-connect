@@ -25,9 +25,9 @@ script to connect network SNNU
 
 1. 打开配置文件
 
-   ```powershell
+```powershell
   notepad $profile
-   ```
+```
 
 2. 粘贴仓库中的.ps1文件，替换自己的账户和密码，保存。可能需要重启以生效。
 
