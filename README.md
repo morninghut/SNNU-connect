@@ -38,3 +38,29 @@ script to connect network SNNU
 ```powershell
 cnt
 ```
+
+### 搭配 systemctl 实现开机自动登录（optional）
+
+在 /etc/systemd/system/目录下新建 connect.service：
+```
+[Unit]
+Description=Connect to Campus Network
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/local/bin/connect-net
+
+[Install]
+WantedBy=multi-user.target
+```
+再
+```bash
+sudo systemctl daemon-reload # 重载systemctl文件目录
+sudo systemctl enable connect.service # 开机后自启
+sudo systemctl start connect.service # 启动服务
+sudo systemctl status connect.service # 检查服务状态
+journalctl -u connect.service # 查看服务日志（optional）
+```
+
+
